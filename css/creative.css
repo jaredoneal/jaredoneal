@@ -10,6 +10,10 @@ body {
     height: 100%;
 }
 
+.text-faded .project-category {
+    text-align:center !important;
+}
+
 .spoiler{ 
   color: black; 
   background-color:black;
@@ -71,7 +75,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255);
+    color: rgba(255,255,255, 1);
     text-align: left;
 }
 
@@ -193,7 +197,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/portfolio/Charlotte1-min.jpg) !important;
+    background-image: url(../test/img/Scotland2.jpg) !important;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -490,3 +494,5 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+.text-faded .project-category {
+    text-align:center !important;

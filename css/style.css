@@ -24,3 +24,7 @@ img{
   width: 100%;
   /*top:20px;*/
 }
+
+.project-category .text-faded .text-center {
+	text-align:center !important;
+}
