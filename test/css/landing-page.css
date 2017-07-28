@@ -304,9 +304,9 @@ section {overflow:hidden;}
     Grid layout
 --------------------------*/
 
-/*#instafeed ul.grid{
+#instafeed ul.grid{
     list-style: none;
-    width: 20%;
+    width: 40%;
     margin: 0 auto;
     text-align: left;
 }
@@ -321,4 +321,4 @@ section {overflow:hidden;}
     height:55px;
     display:block;
     border:none;
-}*/
+}
