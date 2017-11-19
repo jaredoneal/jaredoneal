@@ -18,21 +18,9 @@
         <link rel="stylesheet" src="app.css" />
 
     <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
-    <style>
-    #chartdiv {
-        width: 50%;
-        height: 200px;
-    }
-
-    .charts {
-        width: 100%;
-        height: 120px;
-    }
-    </style>
 </head>
 
 <body ng-controller="PhoneListController">
-<div class="wrapper">
 <div class="container">
 <div class="row is-flex">
 <div class="col-xs-12">
@@ -59,12 +47,12 @@
                     <div class="col-sm-4 chart-container">
                         <div class="charts" id="chartdiv{{phone.id}}"></div>
                     </div>
+                    <div class="col-sm-2"></div>
                 </div>
             </div>
         </li>
     </ul>
     <script src="radarcharts.js"></script>
-</div>
 </body>
 
 </html>

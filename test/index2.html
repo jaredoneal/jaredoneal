@@ -8,11 +8,9 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Bitter|Julius+Sans+One|Muli|Raleway|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Julius+Sans+One|Muli|Raleway|Ubuntu|Rock+Salt" rel="stylesheet">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.22/angular.js"></script>
-    <script src="js/instafeed.js"></script>
     <script type="text/javascript" src="./fullpage.js/jquery.fullPage.js"></script>
     <script type="text/javascript" src="examples.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -39,10 +37,10 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="intro-message">
-                                <h1>Jared O'Neal</h1>
+                                <h1>&#60;Jared O'Neal/&#62;</h1>
                                 <hr class="intro-divider">
                                 <h3>Software + Travel</h3>
-                                <!--                         <ul class="list-inline intro-social-buttons">
+                             <!--                            <ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="https://instagram.com/jaredoneal" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
                             </li>
@@ -63,91 +61,19 @@
                 <a class="fa fa-angle-double-down fa-5x page-scroll" href="#secondPage"></a>
             </div>
         </div>
-        <div id="section-2" class="section">
-            <div class="content-section-a">
-                <div class="container">
-                    <div class="col-lg-5 col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">I Build Websites.</h2>
-                        <p class="lead">I specialize in building mobile responsive websites for businesses to help project brands into the hands of consumers. I spend most of my time working in JavaScript with a particular emphasis on AngularJS. </p>
-                    </div>
-                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img id="angular" class="img-responsive" src="img/Angular2.png" alt="">
-                    </div>
-                </div>
-                <!-- /.container -->
-            </div>
-            <!-- /.content-section-a -->
+        <div id="about-me" class="section">
+        <div>
+            <h2>Me</h2>
+            <p>My middle name is <span class="highlighted-text">Amrstrong.</span> I enjoy a good pair of <span class="highlighted-text">boots.</span> I travel for <span class="highlighted-text">inspiration.</span> But you're probably not here for that. Anyway, I'm a web developer that primarily works with <span class="highlighted-text"> HTML, CSS, JavaScript, PHP, ColdFusion, Java, SQL,</span> but realistically I can work with anything with documentation.</p> 
         </div>
-        <div class="section">
-            <div class="content-section-a">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5 col-sm-6">
-                            <hr class="section-heading-spacer">
-                            <div class="clearfix"></div>
-                            <h2 class="section-heading">I Create Exposure.</h2>
-                            <p class="lead">My experience lies not only in web development, but search engine optimization, digital marketing, copywrite, and content creation. I have certificates in both Google Analytics and Google AdWords.</p>
-                        </div>
-                        <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                            <img class="img-responsive" src="img/googleanalytics.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <!-- /.container -->
-            </div>
-            <!-- /.content-section-a -->
         </div>
-        <div class="section">
-            <div id="instabox">
-                <div ng-app="instafeed" class="ng-scope">
-                    <div id="instafeed">
-                        <section ng-controller="ShowImages as images">
-                            <header>
-                            </header>
-                            <ul ng-show="layout == 'grid'" class="grid">
-                                <!-- A view with big photos and no text -->
-                                <li ng-repeat="p in pics">
-                                    <a href="{{p.link}}" target="_blank"><img ng-src="{{p.images.low_resolution.url}}" /></a>
-                                </li>
-                            </ul>
-                            <ul ng-show="layout == 'list'" class="list">
-                                <!-- A compact view smaller photos and titles -->
-                                <li ng-repeat="p in pics">
-                                    <a href="{{p.link}}" target="_blank"><img ng-src="{{p.images.thumbnail.url}}" /></a>
-                                    <p>{{p.caption.text}}</p>
-                                </li>
-                            </ul>
-                        </section>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                <div class="col-lg-12 col-sm-6">
-                    <h2 class="traveltext">I Travel.</h2>
-                    <p class="lead">I've found that one of the best ways to keep fresh ideas circulating in my mind is through travel. New places help
-                    me jumpstart my creative process and provide endless inspiration.</p>
-                </div>
-                </div>
-                </div>
-                </div>
-                </div>
+        <div id="work" class="section">
+        <h2>Who I've Worked With</h2>
+        </div>
+        <div id="projects" class="section">
+                <h2>Projects</h2>
             </div>
         </div>
     </div>
 </body>
-
-
-
-
-
 </html>
-	</style>
-
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Jared O'Neal Portfolio Page</title>
-	<meta name="author" content="Jared O'Neal" />
-
-	<!-- Special thanks to Alvaro Trigo for his work with fullPage.js -->
-	
