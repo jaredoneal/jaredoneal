@@ -232,7 +232,7 @@ section {overflow:hidden;}
 
  h2 {
 	font-family: $font-sans;
-	font-size: 10rem;
+	font-size: 8rem;
 }
 
 p{
@@ -248,7 +248,7 @@ p{
 
 	h2 {
 	font-family: $font-sans;
-	font-size: 10rem;
+	font-size: 8rem;
 	text-align: center;
 	}
 }
@@ -257,7 +257,7 @@ p{
 	background-color: #EFF1F3 !important;
 		h2 {
 	font-family: $font-sans;
-	font-size: 10rem;
+	font-size: 8rem;
 	text-align: center;
 	}
 }
@@ -276,4 +276,22 @@ p{
 #section0 h1
 {
 	font-family: $font-intro;
+}
+
+#accordion {
+    width:60%;
+    margin: auto;
+    h5{
+        font-size: 3rem;
+        color: #222;
+    }
+
+    a {
+        color: #222;
+    }
+}
+
+#oliver {
+      background: url(../img/oliver.png) no-repeat center center;
+      height: 400px;
 }

@@ -5995,7 +5995,7 @@ section {
   background-color: #EFF1F3 !important; }
   #about-me h2 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 10rem; }
+    font-size: 8rem; }
   #about-me p {
     font-size: 3rem;
     width: 50%;
@@ -6004,14 +6004,14 @@ section {
 
 #work h2 {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 10rem;
+  font-size: 8rem;
   text-align: center; }
 
 #projects {
   background-color: #EFF1F3 !important; }
   #projects h2 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 10rem;
+    font-size: 8rem;
     text-align: center; }
 
 .highlighted-text {
@@ -6022,3 +6022,16 @@ section {
 
 #section0 h1 {
   font-family: "Lato", "Lato"; }
+
+#accordion {
+  width: 60%;
+  margin: auto; }
+  #accordion h5 {
+    font-size: 3rem;
+    color: #222; }
+  #accordion a {
+    color: #222; }
+
+#oliver {
+  background: url(../img/oliver.png) no-repeat center center;
+  height: 400px; }
