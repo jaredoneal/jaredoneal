@@ -1,9 +1,14 @@
 @import '_bootstrap.scss';
-
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
 
 $font-sans: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 $font-intro: "Lato", "Lato";
-
+$highlighted-text: #737547;
 
 
 a { color: white; text-decoration: none; }
@@ -13,6 +18,7 @@ a { color: white; text-decoration: none; }
   position: absolute;
   bottom: 0px;
   left: 50%;
+  font-size: 2rem;
 }
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -37,12 +43,6 @@ a { color: white; text-decoration: none; }
 }
 
 body,
-html {
-    width: 100%;
-    height: 100%;
-}
-
-body,
 h1,
 h2,
 h3,
@@ -51,6 +51,10 @@ h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+h2 {
+    font-size: 8rem;
 }
 
 #angular{
@@ -91,7 +95,7 @@ h6 {
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 7em;
+    font-size: 9rem;
     font-family: 'Muli', sans-serif;
 }
 
@@ -242,6 +246,16 @@ p{
 	text-align: left;
 }
 
+#zoo {
+    h2{
+font-size: 7rem;
+}
+h5 {
+    font-size: 2.5rem;
+}
+}
+
+
 }
 
 #work {
@@ -263,7 +277,7 @@ p{
 }
 
 .highlighted-text {
-	color: #A6A867;
+	color: $highlighted-text;
 }
 
 .fp-tableCell
@@ -279,19 +293,24 @@ p{
 }
 
 #accordion {
-    width:60%;
+    width:55%;
     margin: auto;
     h5{
-        font-size: 3rem;
+        font-size: 2vw;
         color: #222;
     }
 
     a {
         color: #222;
     }
+
+    p {
+        font-size: 2rem;
+    }
 }
 
 #oliver {
       background: url(../img/oliver.png) no-repeat center center;
-      height: 400px;
+      height: 40vh;
 }
+
