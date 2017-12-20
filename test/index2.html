@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./fullpage.js/jquery.fullPage.css">
     <!-- <link rel="stylesheet" type="text/css" href="./css/landing-page.css"> -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -14,20 +15,21 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="./fullpage.js/jquery.fullPage.js"></script>
     <script type="text/javascript" src="examples.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
     <!-- <script src="js/bootstrap.min.js"></script> -->
     <script type="text/javascript">
-    $(document).ready(function() {
-        $('#fullpage').fullpage({
-            continuousVertical: true,
-            navigation: true,
-            navigationPosition: 'right',
-            navigationTooltips: ['Landing', 'Software', 'Resume', 'Travel'],
-            sectionsColor: ['none', '#fff', '#f8f8f8', '#fff'],
-            anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                continuousVertical: true,
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['Landing', 'Software', 'Resume', 'Travel'],
+                sectionsColor: ['none', '#fff', '#f8f8f8', '#fff'],
+                anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
 
+            });
         });
-    });
     </script>
 </head>
 
@@ -65,38 +67,50 @@
         <div id="about-me" class="section">
             <div class="slide active">
                 <h2>What I'm About</h2>
-                <p>My middle name is <span class="highlighted-text">Amrstrong.</span> I enjoy a good pair of <span class="highlighted-text">boots.</span> I travel for <span class="highlighted-text">inspiration.</span> But you're probably not here for that. I'm a web developer with a lot to offer. Go right or left for more about me as a person and developer or scroll below to see a glimpse of my work.</p>
+                <p>My middle name is <span class="highlighted-text">Amrstrong.</span> I enjoy a good pair of <span class="highlighted-text">boots.</span>                    I travel for <span class="highlighted-text">inspiration.</span> But you're probably not here for that.
+                    I'm a web developer with a lot to offer. Go right or left for more about me as a person and developer
+                    or scroll below to see a glimpse of my work.</p>
             </div>
             <div class="slide">
                 <h2>Things I'm Good At</h2>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-4">
-                            <h3>CSS</h3>
+                    <div id="first-row" class="row">
+                        <div class="col-sm-12 col-md-3">
+
+                            <img id="things-image" src="img/javascript-logo.png" />
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <h3>CSS</h3>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/bootstrap-logo.png" />
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <h3>CSS</h3>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/css3-logo.png" />
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <h3>CSS</h3>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/html5-logo.png" />
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <h3>CSS</h3>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/sass-logo.png" />
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <h3>CSS</h3>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/dota-2-logo.png" />
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <h3>CSS</h3>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/php-logo.png" />
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <h3>CSS</h3>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/java-logo.png" />
                         </div>
-                        <div class="col-sm-12 col-md-4">
-                            <h3>CSS</h3>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/wp-logo.png" />
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/mysql-logo.png" />
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/ps-logo.png" />
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <img id="things-image" src="img/javascript-logo.png" />
                         </div>
                     </div>
                 </div>
@@ -107,10 +121,10 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="headingOne">
                             <h5 class="mb-0">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Ziggy
         </a>
-      </h5>
+                            </h5>
                         </div>
                         <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                             <div class="card-block">
@@ -118,17 +132,18 @@
                                     <div class="container">
                                     </div>
                                 </div>
-                                <p>Ziggy is my first cat and the start of my family. I adopted Ziggy because I was actually afraid of cats at the time. </p>
+                                <p>Ziggy is my first cat and the start of my family. I adopted Ziggy because I was actually
+                                    afraid of cats at the time. </p>
                             </div>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-header" role="tab" id="headingTwo">
                             <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Pepper the Pig
         </a>
-      </h5>
+                            </h5>
                         </div>
                         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
                             <div class="card-block">
@@ -143,10 +158,10 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="headingThree">
                             <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
           Rosie
         </a>
-      </h5>
+                            </h5>
                         </div>
                         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                             <div class="card-block">
@@ -161,10 +176,10 @@
                     <div class="card">
                         <div class="card-header" role="tab" id="headingFour">
                             <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Oliver James
         </a>
-      </h5>
+                            </h5>
                         </div>
                         <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
                             <div class="card-block">
