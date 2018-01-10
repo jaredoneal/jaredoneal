@@ -5824,6 +5824,12 @@ a {
   color: white;
   text-decoration: none; }
 
+p {
+  font-size: 3rem;
+  width: 50%;
+  margin: auto;
+  text-align: left; }
+
 .arrow {
   text-align: center;
   position: absolute;
@@ -5859,15 +5865,6 @@ h6 {
 
 h2 {
   font-size: 8rem; }
-
-#angular {
-  margin-top: 80px; }
-
-#tampa {
-  margin-bottom: 50px; }
-
-.topnav {
-  font-size: 14px; }
 
 .lead {
   font-size: 18px;
@@ -6045,6 +6042,18 @@ section {
 
 #oliver {
   background: url(../img/oliver.png) no-repeat center center;
+  height: 40vh; }
+
+#pepper {
+  background: url(../img/pepper.jpg) no-repeat center center;
+  height: 40vh; }
+
+#ziggy {
+  background: url(../img/ziggy.jpg) no-repeat center center;
+  height: 40vh; }
+
+#rosie {
+  background: url(../img/rosie2.jpg) no-repeat center center;
   height: 40vh; }
 
 #things-image {
