@@ -6063,3 +6063,10 @@ section {
 
 #first-row {
   padding-top: 20px; }
+
+#NECB p {
+  font-size: 2.5rem;
+  width: 100%; }
+
+#NECB h2 {
+  font-size: 6rem; }
