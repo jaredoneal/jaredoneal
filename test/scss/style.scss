@@ -385,3 +385,41 @@ h5 {
 #amp-image {
     text-align: center;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height:80%;
+    p {
+        font-size:2rem;
+        width:100%;
+        text-align: center;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-container {
+    padding: 2px 16px;
+}
+
+.books {
+    text-align: center;
+        img{
+        height:200px;
+    }
+    p {
+        font-size:2rem;
+        width:100%;
+        text-align: center;
+    }
+    h4 {
+        font-size: 3rem;
+    }
+}
+
