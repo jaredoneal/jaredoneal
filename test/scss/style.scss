@@ -338,7 +338,8 @@ h5 {
 #NECB {
 	p {
 		font-size: 2.5rem;
-		width: 100%;
+        width: 100%;
+        padding-bottom:25px;
 	}
 	h2
 	{
@@ -423,3 +424,17 @@ h5 {
     }
 }
 
+.tabs {
+    li {
+        width:25%
+    }
+    a {
+        font-size: 3rem;
+    }
+}
+
+.tab-content {
+    p {
+        font-size: 2.5rem;
+    }
+}
