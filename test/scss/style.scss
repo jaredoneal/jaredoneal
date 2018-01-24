@@ -441,3 +441,19 @@ h5 {
         width:25%;
     }
 }
+
+.nav-tabs > li {
+font-size:2rem;
+width:25%;
+color:#555555;
+
+a {
+background-color:#fff;
+color:#555555
+ }
+}
+
+.nav-tabs li a.active {
+    background-color: #737547;
+}
+
