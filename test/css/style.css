@@ -6140,7 +6140,7 @@ section {
 
 .nav-tabs > li {
   font-size: 2rem;
-  width: 25%;
+  width: 33.3%;
   color: #555555; }
   .nav-tabs > li a {
     background-color: #fff;
@@ -6148,3 +6148,6 @@ section {
 
 .nav-tabs li a.active {
   background-color: #737547; }
+
+#marble p {
+  width: 100%; }
