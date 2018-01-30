@@ -18,6 +18,9 @@ p{
 	width: 50%;
 	margin: auto;
 	text-align: left;
+    @media screen and (min-width: 450px) {
+            font-size: 4rem;
+        }
 }
 
 .arrow {
@@ -233,6 +236,9 @@ section {overflow:hidden;}
  h2 {
 	font-family: $font-sans;
 	font-size: 8rem;
+            @media screen and (min-width: 450px) {
+            font-size:9rem;
+        }
 }
 
 p{
@@ -240,6 +246,9 @@ p{
 	width: 50%;
 	margin: auto;
 	text-align: left;
+            @media screen and (min-width: 450px) {
+            font-size:4rem;
+        }
 }
 
 #zoo {
@@ -343,7 +352,7 @@ h5 {
 		font-size: 2.5rem;
         width: 100%;
         padding-bottom:25px;
-        @media screen and (min-width: 782px) {
+        @media screen and (min-width: 450px) {
             font-size: 4rem;
         }
     }
@@ -351,7 +360,7 @@ h5 {
 	h2
 	{
 		font-size:6rem;
-        @media screen and (min-width: 782px) {
+        @media screen and (min-width: 450px) {
             font-size:9rem;
         }
 	}
@@ -428,9 +437,15 @@ h5 {
         font-size:2rem;
         width:100%;
         text-align: center;
+                @media screen and (min-width: 450px) {
+            font-size:4rem;
+        }
     }
     h4 {
         font-size: 3rem;
+                @media screen and (min-width: 450px) {
+            font-size:5rem;
+        }
     }
 }
 
@@ -446,9 +461,19 @@ h5 {
 .tab-content {
     p {
         font-size: 2rem;
+                @media screen and (min-width: 450px) {
+            font-size:4.5rem;
+        }
     }
     li {
         width:25%;
+    }
+    h3 {
+
+
+            @media screen and (min-width: 450px) {
+            font-size:5rem;
+        }
     }
 }
 
@@ -473,9 +498,22 @@ color:#555555
     }
 }
 
-.tab-content img {
+.tab-content 
+
+{
+
+img {
     height:500px;
     width:500px;
     margin:auto;
     display:block;
+}
+
+
+}
+
+.list-titles a {
+     @media screen and (min-width: 450px) {
+            font-size:4rem;
+        }
 }

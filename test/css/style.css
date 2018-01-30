@@ -5829,6 +5829,9 @@ p {
   width: 50%;
   margin: auto;
   text-align: left; }
+  @media screen and (min-width: 450px) {
+    p {
+      font-size: 4rem; } }
 
 .arrow {
   text-align: center;
@@ -5998,11 +6001,17 @@ section {
   #about-me h2 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 8rem; }
+    @media screen and (min-width: 450px) {
+      #about-me h2 {
+        font-size: 9rem; } }
   #about-me p {
     font-size: 3rem;
     width: 50%;
     margin: auto;
     text-align: left; }
+    @media screen and (min-width: 450px) {
+      #about-me p {
+        font-size: 4rem; } }
   #about-me #zoo h2 {
     font-size: 7rem; }
   #about-me #zoo h5 {
@@ -6070,13 +6079,13 @@ section {
   font-size: 2.5rem;
   width: 100%;
   padding-bottom: 25px; }
-  @media screen and (min-width: 782px) {
+  @media screen and (min-width: 450px) {
     #NECB p {
       font-size: 4rem; } }
 
 #NECB h2 {
   font-size: 6rem; }
-  @media screen and (min-width: 782px) {
+  @media screen and (min-width: 450px) {
     #NECB h2 {
       font-size: 9rem; } }
 
@@ -6131,8 +6140,14 @@ section {
     font-size: 2rem;
     width: 100%;
     text-align: center; }
+    @media screen and (min-width: 450px) {
+      .books p {
+        font-size: 4rem; } }
   .books h4 {
     font-size: 3rem; }
+    @media screen and (min-width: 450px) {
+      .books h4 {
+        font-size: 5rem; } }
 
 .tabs li {
   width: 25%; }
@@ -6142,9 +6157,16 @@ section {
 
 .tab-content p {
   font-size: 2rem; }
+  @media screen and (min-width: 450px) {
+    .tab-content p {
+      font-size: 4.5rem; } }
 
 .tab-content li {
   width: 25%; }
+
+@media screen and (min-width: 450px) {
+  .tab-content h3 {
+    font-size: 5rem; } }
 
 .nav-tabs > li {
   font-size: 2rem;
@@ -6165,3 +6187,7 @@ section {
   width: 500px;
   margin: auto;
   display: block; }
+
+@media screen and (min-width: 450px) {
+  .list-titles a {
+    font-size: 4rem; } }
