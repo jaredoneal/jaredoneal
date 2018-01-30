@@ -6153,3 +6153,9 @@ section {
 
 #marble p {
   width: 100%; }
+
+.tab-content img {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  display: block; }
