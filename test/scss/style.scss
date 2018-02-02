@@ -15,12 +15,9 @@ a { color: white; text-decoration: none; }
 
 p{
 	font-size: 3rem;
-	width: 50%;
+	width: 65%;
 	margin: auto;
 	text-align: left;
-    @media screen and (min-width: 450px) {
-            font-size: 4rem;
-        }
 }
 
 .arrow {
@@ -65,6 +62,9 @@ h6 {
 
 h2 {
     font-size: 8rem;
+    @media screen and (min-width: 820px){
+        font-size: 5rem;
+    }
 }
 
 
@@ -115,7 +115,7 @@ h2 {
     }
 
     .intro-message > h1 {
-        font-size: 3em;
+        font-size: 7em;
     }
 
     ul.intro-social-buttons > li {
@@ -236,9 +236,9 @@ section {overflow:hidden;}
  h2 {
 	font-family: $font-sans;
 	font-size: 8rem;
-            @media screen and (min-width: 450px) {
-            font-size:9rem;
-        }
+    @media screen and (max-width:820px){
+        font-size: 6rem;
+    }
 }
 
 p{
@@ -246,9 +246,10 @@ p{
 	width: 50%;
 	margin: auto;
 	text-align: left;
-            @media screen and (min-width: 450px) {
-            font-size:4rem;
-        }
+        @media screen and (max-width:820px){
+        font-size: 2.2rem;
+        width:65%
+    }
 }
 
 #zoo {
@@ -269,7 +270,16 @@ h5 {
 	font-family: $font-sans;
 	font-size: 8rem;
 	text-align: center;
+            @media screen and (max-width:820px){
+        font-size: 6rem;
+    }
 	}
+    p {
+                @media screen and (max-width:820px){
+        font-size: 2.2rem;
+        width:65%;
+    }
+    }
 }
 
 #projects {
@@ -278,7 +288,16 @@ h5 {
 	font-family: $font-sans;
 	font-size: 8rem;
 	text-align: center;
+     @media screen and (max-width:820px){
+        font-size: 5rem;
+    }
 	}
+        p {
+                @media screen and (max-width:820px){
+        font-size: 2.2rem;
+        width:65%;
+    }
+}
 }
 
 .highlighted-text {
@@ -341,27 +360,36 @@ h5 {
     width:100px;
     height: 100px;
     margin-bottom: 20px;
+    @media screen and (max-width:820px) {
+        width:75px;
+        height:75px;
+    }
+    @media screen and (max-width:450px) {
+        width:50px;
+        height:50px;
+    }
 }
 
-#first-row {
-    padding-top: 20px;
-}
 
 #NECB {
+    text-align: center;
 	p {
 		font-size: 2.5rem;
         width: 100%;
         padding-bottom:25px;
-        @media screen and (min-width: 450px) {
-            font-size: 4rem;
-        }
-    }
 
+        @media screen and (max-width:1400px)
+        {
+            font-size: 2rem;
+            width:65%;
+        }
+	}
 	h2
 	{
 		font-size:6rem;
-        @media screen and (min-width: 450px) {
-            font-size:9rem;
+        @media screen and (max-width:1400px)
+        {
+            font-size: 5rem;
         }
 	}
 }
@@ -398,12 +426,16 @@ h5 {
 	}
 }
 
-// #web-mock {
-//     text-align: center;
-// }
+#web-mock {
+    @media screen and (max-width:1400px) {
+        height: 300px;
+    }
+}
 
 #amp-image {
-    text-align: center;
+    @media screen and (max-width:1400px) {
+
+    }
 }
 
 .card {
@@ -437,15 +469,9 @@ h5 {
         font-size:2rem;
         width:100%;
         text-align: center;
-                @media screen and (min-width: 450px) {
-            font-size:4rem;
-        }
     }
     h4 {
         font-size: 3rem;
-                @media screen and (min-width: 450px) {
-            font-size:5rem;
-        }
     }
 }
 
@@ -461,19 +487,9 @@ h5 {
 .tab-content {
     p {
         font-size: 2rem;
-                @media screen and (min-width: 450px) {
-            font-size:4.5rem;
-        }
     }
     li {
         width:25%;
-    }
-    h3 {
-
-
-            @media screen and (min-width: 450px) {
-            font-size:5rem;
-        }
     }
 }
 
@@ -498,11 +514,7 @@ color:#555555
     }
 }
 
-.tab-content 
-
-{
-
-img {
+.tab-content img {
     height:500px;
     width:500px;
     margin:auto;
@@ -510,10 +522,7 @@ img {
 }
 
 
-}
-
-.list-titles a {
-     @media screen and (min-width: 450px) {
-            font-size:4rem;
-        }
+.wrapper {
+    max-width:1200px;
+    margin:auto;
 }

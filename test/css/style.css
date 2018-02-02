@@ -5826,12 +5826,9 @@ a {
 
 p {
   font-size: 3rem;
-  width: 50%;
+  width: 65%;
   margin: auto;
   text-align: left; }
-  @media screen and (min-width: 450px) {
-    p {
-      font-size: 4rem; } }
 
 .arrow {
   text-align: center;
@@ -5868,6 +5865,9 @@ h6 {
 
 h2 {
   font-size: 8rem; }
+  @media screen and (min-width: 820px) {
+    h2 {
+      font-size: 5rem; } }
 
 .lead {
   font-size: 18px;
@@ -5907,7 +5907,7 @@ h2 {
   .intro-message {
     padding-bottom: 15%; }
   .intro-message > h1 {
-    font-size: 3em; }
+    font-size: 7em; }
   ul.intro-social-buttons > li {
     display: block;
     margin-bottom: 20px;
@@ -6001,17 +6001,18 @@ section {
   #about-me h2 {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 8rem; }
-    @media screen and (min-width: 450px) {
+    @media screen and (max-width: 820px) {
       #about-me h2 {
-        font-size: 9rem; } }
+        font-size: 6rem; } }
   #about-me p {
     font-size: 3rem;
     width: 50%;
     margin: auto;
     text-align: left; }
-    @media screen and (min-width: 450px) {
+    @media screen and (max-width: 820px) {
       #about-me p {
-        font-size: 4rem; } }
+        font-size: 2.2rem;
+        width: 65%; } }
   #about-me #zoo h2 {
     font-size: 7rem; }
   #about-me #zoo h5 {
@@ -6021,6 +6022,14 @@ section {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 8rem;
   text-align: center; }
+  @media screen and (max-width: 820px) {
+    #work h2 {
+      font-size: 6rem; } }
+
+@media screen and (max-width: 820px) {
+  #work p {
+    font-size: 2.2rem;
+    width: 65%; } }
 
 #projects {
   background-color: #EFF1F3 !important; }
@@ -6028,6 +6037,13 @@ section {
     font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 8rem;
     text-align: center; }
+    @media screen and (max-width: 820px) {
+      #projects h2 {
+        font-size: 5rem; } }
+  @media screen and (max-width: 820px) {
+    #projects p {
+      font-size: 2.2rem;
+      width: 65%; } }
 
 .highlighted-text {
   color: #737547; }
@@ -6071,23 +6087,30 @@ section {
   width: 100px;
   height: 100px;
   margin-bottom: 20px; }
+  @media screen and (max-width: 820px) {
+    #things-image {
+      width: 75px;
+      height: 75px; } }
+  @media screen and (max-width: 450px) {
+    #things-image {
+      width: 50px;
+      height: 50px; } }
 
-#first-row {
-  padding-top: 20px; }
-
-#NECB p {
-  font-size: 2.5rem;
-  width: 100%;
-  padding-bottom: 25px; }
-  @media screen and (min-width: 450px) {
-    #NECB p {
-      font-size: 4rem; } }
-
-#NECB h2 {
-  font-size: 6rem; }
-  @media screen and (min-width: 450px) {
-    #NECB h2 {
-      font-size: 9rem; } }
+#NECB {
+  text-align: center; }
+  #NECB p {
+    font-size: 2.5rem;
+    width: 100%;
+    padding-bottom: 25px; }
+    @media screen and (max-width: 1400px) {
+      #NECB p {
+        font-size: 2rem;
+        width: 65%; } }
+  #NECB h2 {
+    font-size: 6rem; }
+    @media screen and (max-width: 1400px) {
+      #NECB h2 {
+        font-size: 5rem; } }
 
 .right {
   width: 100%;
@@ -6112,8 +6135,9 @@ section {
     float: left;
     width: 100%; } }
 
-#amp-image {
-  text-align: center; }
+@media screen and (max-width: 1400px) {
+  #web-mock {
+    height: 300px; } }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -6140,14 +6164,8 @@ section {
     font-size: 2rem;
     width: 100%;
     text-align: center; }
-    @media screen and (min-width: 450px) {
-      .books p {
-        font-size: 4rem; } }
   .books h4 {
     font-size: 3rem; }
-    @media screen and (min-width: 450px) {
-      .books h4 {
-        font-size: 5rem; } }
 
 .tabs li {
   width: 25%; }
@@ -6157,16 +6175,9 @@ section {
 
 .tab-content p {
   font-size: 2rem; }
-  @media screen and (min-width: 450px) {
-    .tab-content p {
-      font-size: 4.5rem; } }
 
 .tab-content li {
   width: 25%; }
-
-@media screen and (min-width: 450px) {
-  .tab-content h3 {
-    font-size: 5rem; } }
 
 .nav-tabs > li {
   font-size: 2rem;
@@ -6188,6 +6199,6 @@ section {
   margin: auto;
   display: block; }
 
-@media screen and (min-width: 450px) {
-  .list-titles a {
-    font-size: 4rem; } }
+.wrapper {
+  max-width: 1200px;
+  margin: auto; }
