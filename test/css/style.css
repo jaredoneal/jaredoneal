@@ -5843,7 +5843,11 @@ p {
   animation: bounce 2s infinite; }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0); }
   40% {
     transform: translateY(-30px); }
@@ -5860,7 +5864,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 h2 {
@@ -5978,10 +5982,15 @@ footer {
 p.copyright {
   margin: 15px 0 0; }
 
-section, footer, header, aside, nav {
+section,
+footer,
+header,
+aside,
+nav {
   display: block; }
 
-header, section {
+header,
+section {
   padding: 5px 20px; }
 
 section {
@@ -6004,6 +6013,9 @@ section {
     @media screen and (max-width: 820px) {
       #about-me h2 {
         font-size: 6rem; } }
+    @media screen and (max-width: 550px) {
+      #about-me h2 {
+        font-size: 3rem; } }
   #about-me p {
     font-size: 3rem;
     width: 50%;
@@ -6013,6 +6025,9 @@ section {
       #about-me p {
         font-size: 2.2rem;
         width: 65%; } }
+    @media screen and (max-width: 550px) {
+      #about-me p {
+        font-size: 1.4rem; } }
   #about-me #zoo h2 {
     font-size: 7rem; }
   #about-me #zoo h5 {
@@ -6025,11 +6040,18 @@ section {
   @media screen and (max-width: 820px) {
     #work h2 {
       font-size: 6rem; } }
+  @media screen and (max-width: 550px) {
+    #work h2 {
+      font-size: 3rem; } }
 
 @media screen and (max-width: 820px) {
   #work p {
     font-size: 2.2rem;
     width: 65%; } }
+
+@media screen and (max-width: 550px) {
+  #work p {
+    font-size: 1.4rem; } }
 
 #projects {
   background-color: #EFF1F3 !important; }
@@ -6040,10 +6062,17 @@ section {
     @media screen and (max-width: 820px) {
       #projects h2 {
         font-size: 5rem; } }
+    @media screen and (max-width: 550px) {
+      #projects h2 {
+        font-size: 3rem;
+        padding-bottom: 20px; } }
   @media screen and (max-width: 820px) {
     #projects p {
       font-size: 2.2rem;
       width: 65%; } }
+  @media screen and (max-width: 550px) {
+    #projects p {
+      font-size: 1.4rem; } }
 
 .highlighted-text {
   color: #737547; }
@@ -6202,3 +6231,18 @@ section {
 .wrapper {
   max-width: 1200px;
   margin: auto; }
+  @media screen and (min-width: 1200px) {
+    .wrapper {
+      max-width: 1400px; } }
+
+.fp-controlArrow.fp-prev {
+  left: 5px; }
+  @media screen and (max-width: 820px) {
+    .fp-controlArrow.fp-prev {
+      border-width: 25.5px 20px 25px 0px; } }
+
+.fp-controlArrow.fp-next {
+  right: 5px; }
+  @media screen and (max-width: 820px) {
+    .fp-controlArrow.fp-next {
+      border-width: 25.5px 0px 25px 20px; } }
