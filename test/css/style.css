@@ -6140,6 +6140,10 @@ section {
       #NECB p {
         font-size: 2.5rem;
         width: 80%; } }
+    @media screen and (max-width: 1024px) {
+      #NECB p {
+        font-size: 2rem;
+        width: 80%; } }
     @media screen and (max-width: 680px) {
       #NECB p {
         font-size: 2rem;
@@ -6149,6 +6153,9 @@ section {
     @media screen and (max-width: 1400px) {
       #NECB h2 {
         font-size: 5rem; } }
+    @media screen and (max-width: 1024px) {
+      #NECB h2 {
+        font-size: 3.9rem; } }
     @media screen and (max-width: 680px) {
       #NECB h2 {
         font-size: 4rem; } }
@@ -6183,6 +6190,10 @@ section {
 @media screen and (max-width: 1200px) {
   #web-mock {
     height: 250px; } }
+
+@media screen and (max-width: 1024px) {
+  #web-mock {
+    height: 200px; } }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
