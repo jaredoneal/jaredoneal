@@ -428,8 +428,8 @@ section {
         padding-bottom: 25px;
 
         @media screen and (max-width: 1400px) {
-            font-size: 2rem;
-            width: 65%;
+            font-size: 2.5rem;
+            width: 80%;
         }
                 @media screen and (max-width: 680px) {
             font-size: 2rem;
@@ -483,6 +483,9 @@ section {
 #web-mock {
     @media screen and (max-width: 1400px) {
         height: 300px;
+    }
+        @media screen and (max-width: 1200px) {
+        height: 250px;
     }
 }
 

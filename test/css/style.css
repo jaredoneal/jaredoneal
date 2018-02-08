@@ -6138,8 +6138,8 @@ section {
     padding-bottom: 25px; }
     @media screen and (max-width: 1400px) {
       #NECB p {
-        font-size: 2rem;
-        width: 65%; } }
+        font-size: 2.5rem;
+        width: 80%; } }
     @media screen and (max-width: 680px) {
       #NECB p {
         font-size: 2rem;
@@ -6179,6 +6179,10 @@ section {
 @media screen and (max-width: 1400px) {
   #web-mock {
     height: 300px; } }
+
+@media screen and (max-width: 1200px) {
+  #web-mock {
+    height: 250px; } }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
