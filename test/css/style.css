@@ -6024,7 +6024,7 @@ section {
         font-size: 3rem; } }
   #about-me p {
     font-size: 3rem;
-    width: 50%;
+    width: 65%;
     margin: auto;
     text-align: left; }
     @media screen and (max-width: 820px) {
@@ -6148,6 +6148,10 @@ section {
       #NECB p {
         font-size: 2rem;
         width: 80%; } }
+    @media screen and (max-width: 425px) {
+      #NECB p {
+        font-size: 1.5rem;
+        width: 80%; } }
   #NECB h2 {
     font-size: 6rem; }
     @media screen and (max-width: 1400px) {
@@ -6159,6 +6163,9 @@ section {
     @media screen and (max-width: 680px) {
       #NECB h2 {
         font-size: 4rem; } }
+    @media screen and (max-width: 425px) {
+      #NECB h2 {
+        font-size: 3rem; } }
 
 .right {
   width: 100%;
@@ -6193,7 +6200,7 @@ section {
 
 @media screen and (max-width: 1024px) {
   #web-mock {
-    height: 200px; } }
+    display: none; } }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -6273,3 +6280,21 @@ section {
   @media screen and (max-width: 820px) {
     .fp-controlArrow.fp-next {
       border-width: 25.5px 0px 25px 20px; } }
+
+#web-mock-mobile {
+  margin: auto; }
+  @media screen and (min-width: 1024px) {
+    #web-mock-mobile {
+      display: none; } }
+  @media screen and (max-width: 1024px) {
+    #web-mock-mobile {
+      display: block; } }
+  @media screen and (max-width: 768px) {
+    #web-mock-mobile {
+      height: 420px; } }
+  @media screen and (max-width: 768px) {
+    #web-mock-mobile {
+      height: 420px; } }
+  @media screen and (max-width: 425px) {
+    #web-mock-mobile {
+      height: 220px; } }
