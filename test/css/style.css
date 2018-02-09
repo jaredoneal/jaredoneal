@@ -6043,9 +6043,12 @@ section {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 8rem;
   text-align: center; }
+  @media screen and (max-width: 1024px) {
+    #work h2 {
+      font-size: 4.5rem; } }
   @media screen and (max-width: 820px) {
     #work h2 {
-      font-size: 6rem; } }
+      font-size: 5rem; } }
   @media screen and (max-width: 550px) {
     #work h2 {
       font-size: 3rem; } }
@@ -6219,16 +6222,28 @@ section {
 .card-container {
   padding: 2px 16px; }
 
-.books {
+#projects .books {
   text-align: center; }
-  .books img {
+  #projects .books img {
     height: 200px; }
-  .books p {
+    @media screen and (max-width: 1024px) {
+      #projects .books img {
+        height: 180px; } }
+  #projects .books p {
     font-size: 2rem;
     width: 100%;
     text-align: center; }
-  .books h4 {
+    @media screen and (max-width: 1024px) {
+      #projects .books p {
+        font-size: 1.8rem; } }
+  #projects .books h4 {
     font-size: 3rem; }
+    @media screen and (max-width: 1024px) {
+      #projects .books h4 {
+        font-size: 2.5rem; } }
+  @media screen and (max-width: 1024px) {
+    #projects .books h2 {
+      font-size: 6rem; } }
 
 .tabs li {
   width: 25%; }
@@ -6297,4 +6312,4 @@ section {
       height: 420px; } }
   @media screen and (max-width: 425px) {
     #web-mock-mobile {
-      height: 220px; } }
+      height: 280px; } }
