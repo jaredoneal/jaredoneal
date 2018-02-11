@@ -24,8 +24,8 @@
             $('#fullpage').fullpage({
                 continuousVertical: true,
                 sectionsColor: ['none', '#fff', '#f8f8f8', '#fff'],
-                anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
-
+                anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+                responsiveWidth: 425,
             });
         });
     </script>
@@ -266,28 +266,63 @@
                             <h2>What's on my Bookshelf</h2>
                             
                         <div class="row">
-                            <div class="col-xs-6">
+                            <div class="book-one col-sm-6">
                                 <img src="img/dont-think.png" alt="Avatar">
                                 <h4>Don't Make Me Think</h4>
                                 <p><b>Web Design by Steve Krug</b></p>
                             </div>
-                            <div class="books col-xs-6">
+                            <div class="col-sm-6">
                                 <img src="img/elements-ux.png" alt="Avatar">
                                 <h4><b>Elements of UX</b></h4>
                                 <p>UX by Jesse James Garrett</p>
                             </div>
-                            <div class="books col-xs-6">
+                            <div class="book-one col-sm-6">
                                 <img src="img/html5.png" alt="Avatar">
                                 <h4><b>HTML5</b></h4>
                                 <p>Web Development by Lawson & Sharp</p>
                             </div>
-                            <div class="books col-xs-6">
-                                <img src="img/above-fold.png" alt="Avatar">
-                                <h4><b>Above the Fold</b></h4>
-                                <p>Web Design by Brian Miller</p>
+                            <div class="col-sm-6">
+                                <ul><li>
+                                <img src="img/above-fold.png" alt="Avatar"></li>
+                                <li><h4><b>Above the Fold</b></h4>
+                                <p>Web Design by Brian Miller</p></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="slide">
+                    <div class="wrapper">
+                        <ul class="featured-programs">
+                            <div class="row">
+                                <div class="col-sm-4 col-md-3">
+                                    <li class="LogoColors">
+                                        <p> <img src="img/dont-think.png" alt="">
+                                            <h3 class="item-background">Solar Energy Technology</h3> </p>
+                                    </li>
+                                </div>
+                                <div class="col-sm-4 col-md-3">
+                                    <li class="LogoColors">
+                                        <p> <img src="img/elements-ux.png" alt="">
+                                            <h3 class="item-background">Wind Energy Technology</h3> </p>
+                                    </li>
+                                </div>
+                                <div class="col-sm-4 col-md-3">
+                                    <li class="LogoColors">
+                                        <p> <img src="img/html5.png" alt="">
+                                            <h3 class="item-background">Electronics Technology</h3></p>
+                                    </li>
+                                </div>
+                                <div class="col-sm-4 col-md-3">
+                                    <li class="LogoColors">
+                                        <p> <img src="img/above-fold.png" alt="">
+                                            <h3 class="item-background">Power Utility Technology</h3> </p>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+
                 </div>
                 <div id="marble" class="slide">
                     <h2>Big Blue Marble</h2>
