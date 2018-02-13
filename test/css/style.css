@@ -6347,7 +6347,13 @@ section {
     padding-left: 25px; } }
 
 #mobile-bookshelf {
+  width: 100%;
   text-align: center; }
+  #mobile-bookshelf .col-xs-6 {
+    padding: 0px !important; }
+  @media screen and (max-width: 576px) {
+    #mobile-bookshelf {
+      padding: 0px !important; } }
   #mobile-bookshelf p {
     width: 100%; }
   @media screen and (min-width: 576px) {

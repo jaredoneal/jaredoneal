@@ -692,7 +692,14 @@ section {
 }
 
 #mobile-bookshelf {
+    width:100%;
+    .col-xs-6 {
+    padding: 0px !important;
+}
     text-align:center;
+     @media screen and (max-width: 576px) {
+        padding: 0px !important;
+    }
     p {
         width: 100%;
     }
