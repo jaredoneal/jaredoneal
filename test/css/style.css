@@ -6350,7 +6350,6 @@ section {
   width: 100%;
   text-align: center; }
   #mobile-bookshelf .col-xs-6 {
-    width: 45%;
     padding: 0px !important; }
   @media screen and (max-width: 576px) {
     #mobile-bookshelf {
@@ -6360,15 +6359,6 @@ section {
   @media screen and (min-width: 576px) {
     #mobile-bookshelf {
       display: none; } }
-  #mobile-bookshelf img {
-    margin-bottom: 20px;
-    height: 200px; }
-    @media screen and (max-width: 1024px) {
-      #mobile-bookshelf img {
-        height: 180px; } }
-    @media screen and (max-width: 820px) {
-      #mobile-bookshelf img {
-        height: 125px; } }
-    @media screen and (max-width: 576px) {
-      #mobile-bookshelf img {
-        height: 100px; } }
+  @media screen and (max-width: 576px) {
+    #mobile-bookshelf img {
+      height: 100px; } }
