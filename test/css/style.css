@@ -6362,3 +6362,6 @@ section {
     @media screen and (max-width: 820px) {
       #mobile-bookshelf img {
         height: 125px; } }
+    @media screen and (max-width: 576px) {
+      #mobile-bookshelf img {
+        height: 100px; } }
