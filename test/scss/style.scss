@@ -546,6 +546,9 @@ section {
 }
 
 #projects .books {
+                @media screen and (max-width: 576px) {
+            display:none;
+            }
     text-align: center;
     img {
         height: 200px;
@@ -688,36 +691,22 @@ section {
     }
 }
 
-.featured-programs li h3 {
-bottom: 0;
-color: rgb(107, 0, 0);
-display: inline-block;
-letter-spacing: 0;
-font-weight: 500;
-left: 0;
-margin-left: 3%;
-margin-right: 5%;
-padding: 0;
-position: relative;
-text-align: left;
-vertical-align: middle;
-text-transform: none;
-width: 70%;
-background: none !important;
-}
-
-.featured-programs li img {
-display: inline-block;
-margin: 1% 0;
-width: 20%;
-vertical-align: middle;
-height:100px;
-}
-
-li {
-    list-style-type: none;
-}
-
-ul {
-    display: inline-block;
+#mobile-bookshelf {
+    text-align:center;
+    p {
+        width: 100%;
+    }
+      @media screen and (min-width: 576px) {
+        display:none;
+    }
+    img {
+        margin-bottom: 20px;
+        height: 200px;
+            @media screen and (max-width: 1024px) {
+            height: 180px;
+            }
+            @media screen and (max-width: 820px) {
+                height: 125px;
+                }
+    }
 }
