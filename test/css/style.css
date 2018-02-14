@@ -6404,10 +6404,13 @@ section {
 
 #first-row .col-xs-6 {
   padding-left: 0px;
-  padding-right: 0px; }
+  padding-right: 0px;
+  width: 40%;
+  width: 40%; }
 
 #first-row {
-  width: 90%; }
+  width: 90%;
+  margin: auto; }
 
 #first-row .row {
   width: 90%; }
