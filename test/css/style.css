@@ -6342,12 +6342,9 @@ section {
     #web-mock-mobile {
       height: 280px; } }
 
-@media screen and (max-width: 550px) {
-  .book-one {
-    padding-left: 25px; } }
-
 #mobile-bookshelf {
-  width: 100%;
+  margin: 0px;
+  padding: 0px;
   text-align: center; }
   #mobile-bookshelf .col-xs-6 {
     padding: 0px !important; }
@@ -6362,3 +6359,23 @@ section {
   @media screen and (max-width: 576px) {
     #mobile-bookshelf img {
       height: 100px; } }
+
+.book-image {
+  width: 30%;
+  float: left; }
+  .book-image img {
+    height: 100px; }
+
+.book-text {
+  width: 70%;
+  float: right; }
+  .book-text h4 {
+    text-align: center; }
+  .book-text p {
+    width: 100%;
+    text-align: center; }
+
+#projects .book-row {
+  width: 100%;
+  height: 120px;
+  margin-left: 20px; }
