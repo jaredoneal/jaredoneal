@@ -5824,6 +5824,9 @@ a {
   color: white;
   text-decoration: none; }
 
+a:hover, a:focus {
+  text-decoration: none; }
+
 p {
   font-size: 3rem;
   width: 65%;
@@ -5839,19 +5842,19 @@ p {
   @media screen and (max-width: 550px) {
     .arrow {
       font-size: .5rem;
-      left: 45%; } }
+      left: 44%; } }
   @media screen and (max-width: 820px) {
     .arrow {
       font-size: 1.5rem;
-      left: 47%; } }
+      left: 46%; } }
   @media screen and (max-width: 1024px) {
     .arrow {
       font-size: 1.5rem;
-      left: 47%; } }
+      left: 46%; } }
   @media screen and (max-width: 1440px) {
     .arrow {
       font-size: 1.5rem;
-      left: 48%; } }
+      left: 47%; } }
 
 .bounce {
   -moz-animation: bounce 2s infinite;
@@ -5880,7 +5883,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 h2 {
@@ -6024,7 +6027,7 @@ section {
   vertical-align: middle;
   background-color: #EFF1F3 !important; }
   #about-me h2 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 8rem; }
     @media screen and (max-width: 1024px) {
       #about-me h2 {
@@ -6049,11 +6052,18 @@ section {
         font-size: 1.4rem; } }
   #about-me #zoo h2 {
     font-size: 7rem; }
+    @media screen and (max-width: 820px) {
+      #about-me #zoo h2 {
+        font-size: 4rem; } }
   #about-me #zoo h5 {
-    font-size: 2.5rem; }
+    font-size: 2.5rem;
+    padding-bottom: 12.5px; }
+    @media screen and (max-width: 820px) {
+      #about-me #zoo h5 {
+        font-size: 2rem; } }
 
 #work h2 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 8rem;
   text-align: center; }
   @media screen and (max-width: 1024px) {
@@ -6078,7 +6088,7 @@ section {
 #projects {
   background-color: #EFF1F3 !important; }
   #projects h2 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 8rem;
     text-align: center; }
     @media screen and (max-width: 1024px) {
@@ -6107,7 +6117,7 @@ section {
   vertical-align: middle; }
 
 #section0 h1 {
-  font-family: "Lato", "Lato"; }
+  font-family: "Muli", "Muli"; }
 
 #accordion {
   width: 55%;
@@ -6118,7 +6128,12 @@ section {
   #accordion a {
     color: #222; }
   #accordion p {
-    font-size: 2rem; }
+    font-size: 2rem;
+    width: 85%;
+    padding-bottom: 12.5px; }
+    @media screen and (max-width: 820px) {
+      #accordion p {
+        font-size: 1.4rem; } }
 
 #oliver {
   background: url(../img/oliver.png) no-repeat center center;
@@ -6249,6 +6264,9 @@ section {
 
 .card-container {
   padding: 2px 16px; }
+
+.card-block {
+  padding: 0px; }
 
 #projects .books {
   text-align: center; }
@@ -6414,3 +6432,6 @@ section {
 
 #first-row .row {
   width: 80%; }
+
+.jumbotron {
+  margin-bottom: 12px; }

@@ -6,19 +6,23 @@ html {
     font-size: 62.5%;
 }
 
-$font-sans: "Lato",
+$font-sans: "Muli",
 "Helvetica Neue",
 Helvetica,
 Arial,
 sans-serif;
-$font-intro: "Lato",
-"Lato";
+$font-intro: "Muli",
+"Muli";
 $highlighted-text: #737547;
 
 
 a {
     color: white;
     text-decoration: none;
+}
+
+a:hover, a:focus{
+    text-decoration:none;
 }
 
 p {
@@ -36,19 +40,19 @@ p {
     font-size: 2rem;
         @media screen and (max-width:550px){
         font-size: .5rem;
-        left: 45%;
+        left: 44%;
         }
                 @media screen and (max-width:820px){
         font-size: 1.5rem;
-        left: 47%;
+        left: 46%;
         }
         @media screen and (max-width:1024px){
         font-size: 1.5rem;
-        left: 47%;
+        left: 46%;
         }
         @media screen and (max-width:1440px){
         font-size: 1.5rem;
-        left: 48%;
+        left: 47%;
         }
 }
 
@@ -85,7 +89,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
 }
 
@@ -308,9 +312,16 @@ section {
     #zoo {
         h2 {
             font-size: 7rem;
+             @media screen and (max-width: 820px) {
+        font-size:4rem;
+    }
         }
         h5 {
             font-size: 2.5rem;
+            padding-bottom:12.5px;
+             @media screen and (max-width: 820px) {
+        font-size:2rem;
+    }
         }
     }
 }
@@ -394,6 +405,7 @@ section {
     h5 {
         font-size: 2vw;
         color: #222;
+
     }
 
     a {
@@ -402,6 +414,11 @@ section {
 
     p {
         font-size: 2rem;
+        width:85%;
+        padding-bottom:12.5px;
+         @media screen and (max-width: 820px) {
+     font-size:1.4rem;
+    }
     }
 }
 
@@ -563,6 +580,10 @@ section {
 
 .card-container {
     padding: 2px 16px;
+}
+
+.card-block {
+    padding:0px;
 }
 
 #projects .books {
@@ -774,4 +795,8 @@ section {
 
 #first-row .row {
     width:80%;
+}
+
+.jumbotron {
+    margin-bottom:12px;
 }
