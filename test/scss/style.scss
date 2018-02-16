@@ -402,6 +402,9 @@ section {
 #accordion {
     width: 55%;
     margin: auto;
+     @media screen and (max-width: 820px) {
+        width:80%;
+    }
     h5 {
         font-size: 2vw;
         color: #222;
