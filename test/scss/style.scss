@@ -813,6 +813,9 @@ section {
 
     img {
         height:400px;
+         @media screen and (max-width:625px){
+            height:310px;
+        }
     }
 
     p {
@@ -829,6 +832,9 @@ section {
     text-align:center;
     padding:0px;
     button {
+        @media screen and (max-width:767px){
+            font-size:2.5rem;
+        }
         font-size:3.5rem;
         background-color: transparent;
         border: none;
