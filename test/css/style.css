@@ -6138,22 +6138,6 @@ section {
       #accordion p {
         font-size: 1.4rem; } }
 
-#oliver {
-  background: url(../img/oliver.png) no-repeat center center;
-  height: 40vh; }
-
-#pepper {
-  background: url(../img/pepper.jpg) no-repeat center center;
-  height: 40vh; }
-
-#ziggy {
-  background: url(../img/ziggy.jpg) no-repeat center center;
-  height: 40vh; }
-
-#rosie {
-  background: url(../img/rosie2.jpg) no-repeat center center;
-  height: 40vh; }
-
 #things-image {
   width: 100px;
   height: 100px;
@@ -6438,3 +6422,55 @@ section {
 
 .jumbotron {
   margin-bottom: 12px; }
+
+.petz {
+  display: none; }
+
+#zoo .petz {
+  text-align: center; }
+  #zoo .petz img {
+    height: 400px; }
+  #zoo .petz p {
+    width: 100%;
+    text-align: center; }
+
+.buttons-grouping {
+  text-align: center;
+  padding: 0px; }
+  .buttons-grouping button {
+    font-size: 3.5rem;
+    background-color: transparent;
+    border: none;
+    outline: none; }
+
+.pulse {
+  color: #737547;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
