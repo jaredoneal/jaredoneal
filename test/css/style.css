@@ -6051,7 +6051,7 @@ section {
       #about-me p {
         font-size: 1.4rem; } }
   #about-me #zoo h2 {
-    font-size: 7rem; }
+    font-size: 6rem; }
     @media screen and (max-width: 820px) {
       #about-me #zoo h2 {
         font-size: 4rem; } }
@@ -6433,6 +6433,9 @@ section {
   #zoo .petz p {
     width: 100%;
     text-align: center; }
+
+#ziggy {
+  display: block; }
 
 .buttons-grouping {
   text-align: center;

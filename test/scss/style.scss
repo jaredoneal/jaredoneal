@@ -312,7 +312,7 @@ section {
     #zoo {
 
         h2 {
-            font-size: 7rem;
+            font-size: 6rem;
              @media screen and (max-width: 820px) {
         font-size:4rem;
     }
@@ -803,6 +803,7 @@ section {
 .petz {
     display: none;
 
+
 }
 
 #zoo {
@@ -819,6 +820,9 @@ section {
         text-align:center;
     }
     }
+}
+
+#ziggy { display:block;
 }
 
 .buttons-grouping {
