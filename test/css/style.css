@@ -6433,6 +6433,9 @@ section {
     @media screen and (max-width: 625px) {
       #zoo .petz img {
         height: 310px; } }
+    @media screen and (max-width: 515px) {
+      #zoo .petz img {
+        height: 250px; } }
   #zoo .petz p {
     width: 70%;
     text-align: center; }
@@ -6454,7 +6457,17 @@ section {
     padding: 2px 10px 2px 10px; }
     @media screen and (max-width: 767px) {
       .buttons-grouping button {
-        font-size: 2.5rem; } }
+        font-size: 2.5rem;
+        padding: 4px 15px 4px 15px; } }
+    @media screen and (max-width: 550px) {
+      .buttons-grouping button {
+        font-size: 2rem;
+        padding: 4px 15px 4px 15px; } }
+    @media screen and (max-width: 425px) {
+      .buttons-grouping button {
+        font-size: 1.8rem;
+        padding: 8px 15px 8px 15px;
+        margin-right: 8px; } }
 
 .pulse {
   color: #737547;

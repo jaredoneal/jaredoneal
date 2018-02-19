@@ -815,6 +815,9 @@ section {
         height:400px;
          @media screen and (max-width:625px){
             height:310px;
+       }
+       @media screen and (max-width:515px){
+            height:250px;
         }
     }
 
@@ -834,6 +837,16 @@ section {
     button {
         @media screen and (max-width:767px){
             font-size:2.5rem;
+            padding: 4px 15px 4px 15px;
+        }
+        @media screen and (max-width:550px){
+            font-size:2rem;
+            padding: 4px 15px 4px 15px;
+        }
+        @media screen and (max-width:425px){
+            font-size:1.8rem;
+            padding: 8px 15px 8px 15px;
+            margin-right: 8px;
         }
         font-size:3.5rem;
         background-color: transparent;
