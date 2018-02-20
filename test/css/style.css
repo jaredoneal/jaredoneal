@@ -5883,7 +5883,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Merriweather", "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Arimo", "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 h2 {
@@ -5915,7 +5915,7 @@ h2 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 9rem;
-  font-family: "Roboto"; }
+  font-family: "Ubuntu"; }
 
 .intro-divider {
   width: 400px;
@@ -5924,7 +5924,7 @@ h2 {
 
 .intro-message > h3 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-family: "Roboto"; }
+  font-family: "Ubuntu"; }
 
 @media (max-width: 767px) {
   .intro-message {
@@ -6021,7 +6021,7 @@ section {
   vertical-align: middle;
   background-color: #EFF1F3 !important; }
   #about-me h2 {
-    font-family: "Roboto";
+    font-family: "Ubuntu";
     font-size: 8rem; }
     @media screen and (max-width: 1024px) {
       #about-me h2 {
@@ -6057,7 +6057,7 @@ section {
         font-size: 2rem; } }
 
 #work h2 {
-  font-family: "Roboto";
+  font-family: "Ubuntu";
   font-size: 8rem;
   text-align: center; }
   @media screen and (max-width: 1024px) {
@@ -6082,7 +6082,7 @@ section {
 #projects {
   background-color: #EFF1F3 !important; }
   #projects h2 {
-    font-family: "Roboto";
+    font-family: "Ubuntu";
     font-size: 8rem;
     text-align: center; }
     @media screen and (max-width: 1024px) {
@@ -6111,7 +6111,7 @@ section {
   vertical-align: middle; }
 
 #section0 h1 {
-  font-family: "Merriweather"; }
+  font-family: "Arimo"; }
 
 #accordion {
   width: 55%;
