@@ -6,13 +6,13 @@ html {
     font-size: 62.5%;
 }
 
-$font-sans: "Muli",
-"Helvetica Neue",
+$font-sans: "Merriweather",
+"Roboto",
 Helvetica,
 Arial,
 sans-serif;
-$font-intro: "Muli",
-"Muli";
+$font-serif: "Roboto";
+$font-intro: "Merriweather";
 $highlighted-text: #737547;
 
 
@@ -89,7 +89,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $font-sans;
     font-weight: 700;
 }
 
@@ -128,7 +128,7 @@ h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
     font-size: 9rem;
-    font-family: 'Muli', sans-serif;
+    font-family: $font-serif;
 }
 
 .intro-divider {
@@ -139,7 +139,7 @@ h2 {
 
 .intro-message>h3 {
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-family: 'Muli', sans-serif;
+    font-family: $font-serif;
 }
 
 @media(max-width:767px) {
@@ -282,7 +282,7 @@ section {
 
 
     h2 {
-        font-family: $font-sans;
+        font-family: $font-serif;
         font-size: 8rem;
         @media screen and (max-width: 1024px) {
             font-size: 4.5rem;
@@ -330,7 +330,7 @@ section {
 #work {
 
     h2 {
-        font-family: $font-sans;
+        font-family: $font-serif;
         font-size: 8rem;
         text-align: center;
             @media screen and (max-width: 1024px) {
@@ -358,7 +358,7 @@ section {
 #projects {
     background-color: #EFF1F3 !important;
     h2 {
-        font-family: $font-sans;
+        font-family: $font-serif;
         font-size: 8rem;
         text-align: center;
         @media screen and (max-width: 1024px) {
@@ -819,6 +819,9 @@ section {
        @media screen and (max-width:515px){
             height:250px;
         }
+        @media screen and (max-width:450px){
+            height:225px;
+        }
     }
 
     p {
@@ -847,6 +850,11 @@ section {
             font-size:1.8rem;
             padding: 8px 15px 8px 15px;
             margin-right: 8px;
+        }
+        @media screen and (max-width:375px){
+            font-size:1.6rem;
+            padding: 7px 14px 7px 14px;
+            margin-right: 7px;
         }
         font-size:3.5rem;
         background-color: transparent;

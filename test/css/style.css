@@ -5883,7 +5883,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Merriweather", "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 h2 {
@@ -5915,7 +5915,7 @@ h2 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 9rem;
-  font-family: 'Muli', sans-serif; }
+  font-family: "Roboto"; }
 
 .intro-divider {
   width: 400px;
@@ -5924,7 +5924,7 @@ h2 {
 
 .intro-message > h3 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-family: 'Muli', sans-serif; }
+  font-family: "Roboto"; }
 
 @media (max-width: 767px) {
   .intro-message {
@@ -6027,7 +6027,7 @@ section {
   vertical-align: middle;
   background-color: #EFF1F3 !important; }
   #about-me h2 {
-    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Roboto";
     font-size: 8rem; }
     @media screen and (max-width: 1024px) {
       #about-me h2 {
@@ -6063,7 +6063,7 @@ section {
         font-size: 2rem; } }
 
 #work h2 {
-  font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto";
   font-size: 8rem;
   text-align: center; }
   @media screen and (max-width: 1024px) {
@@ -6088,7 +6088,7 @@ section {
 #projects {
   background-color: #EFF1F3 !important; }
   #projects h2 {
-    font-family: "Muli", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Roboto";
     font-size: 8rem;
     text-align: center; }
     @media screen and (max-width: 1024px) {
@@ -6117,7 +6117,7 @@ section {
   vertical-align: middle; }
 
 #section0 h1 {
-  font-family: "Muli", "Muli"; }
+  font-family: "Merriweather"; }
 
 #accordion {
   width: 55%;
@@ -6436,6 +6436,9 @@ section {
     @media screen and (max-width: 515px) {
       #zoo .petz img {
         height: 250px; } }
+    @media screen and (max-width: 450px) {
+      #zoo .petz img {
+        height: 225px; } }
   #zoo .petz p {
     width: 70%;
     text-align: center; }
@@ -6468,6 +6471,11 @@ section {
         font-size: 1.8rem;
         padding: 8px 15px 8px 15px;
         margin-right: 8px; } }
+    @media screen and (max-width: 375px) {
+      .buttons-grouping button {
+        font-size: 1.6rem;
+        padding: 7px 14px 7px 14px;
+        margin-right: 7px; } }
 
 .pulse {
   color: #737547;
