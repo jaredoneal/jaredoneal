@@ -5884,7 +5884,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Arimo", "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Lato", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
 h2 {
@@ -5915,7 +5915,7 @@ h2 {
 .intro-message > h1 {
   margin: 0;
   font-size: 9rem;
-  font-family: "Ubuntu"; }
+  font-family: "Lato"; }
 
 .intro-divider {
   width: 400px;
@@ -5924,7 +5924,7 @@ h2 {
 
 .intro-message > h3 {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-  font-family: "Ubuntu"; }
+  font-family: "Lato"; }
 
 @media (max-width: 767px) {
   .intro-message {
@@ -6021,7 +6021,7 @@ section {
   vertical-align: middle;
   background-color: #EFF1F3 !important; }
   #about-me h2 {
-    font-family: "Ubuntu";
+    font-family: "Lato";
     font-size: 8rem; }
     @media screen and (max-width: 1024px) {
       #about-me h2 {
@@ -6057,7 +6057,7 @@ section {
         font-size: 2rem; } }
 
 #work h2 {
-  font-family: "Ubuntu";
+  font-family: "Lato";
   font-size: 8rem;
   text-align: center; }
   @media screen and (max-width: 1024px) {
@@ -6082,7 +6082,7 @@ section {
 #projects {
   background-color: #EFF1F3 !important; }
   #projects h2 {
-    font-family: "Ubuntu";
+    font-family: "Lato";
     font-size: 8rem;
     text-align: center; }
     @media screen and (max-width: 1024px) {
@@ -6111,7 +6111,7 @@ section {
   vertical-align: middle; }
 
 #section0 h1 {
-  font-family: "Arimo"; }
+  font-family: "Lato"; }
 
 #accordion {
   width: 55%;
