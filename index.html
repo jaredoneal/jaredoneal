@@ -2,451 +2,356 @@
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="./fullpage.js/jquery.fullPage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Lato|PT+Serif|Roboto|Slabo+27px|Ubuntu" rel="stylesheet">
 
-    <title>The Man, The Myth, The Legend: Jared O'Neal</title>
-    <!-- favicon -->
-    <link rel='shortcut icon' href='../Website/favicon.ico' type='image/x-icon'/ >
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-
-    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
-
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-73701867-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/petSelector.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script> -->
+    <script type="text/javascript" src="./fullpage.js/jquery.fullPage.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#fullpage').fullpage({
+                continuousVertical: true,
+                sectionsColor: ['none', '#fff', '#f8f8f8', '#fff'],
+                anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage']
+            });
+        });
+    </script>
 </head>
 
-<body id="page-top">
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P5D5T3"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P5D5T3');</script>
-<!-- End Google Tag Manager -->
-
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Top of Page</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">Who Am I</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">What I Do</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Call Me</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>Hi, I'm Jared O'Neal</h1>
-                <hr>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Read On</a>
-            </div>
-        </div>
-    </header>
-
-    <section class="bg-primary" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Who Am I?</h2>
-                    <hr class="light">
-                    <p class="text-faded">I am many things. I'm a writer, developer, producer, designer, award-winning bigfoot impersonator, devout Liverpool fan, seasoned Azeroth veteran, amateur cat painter, and I believe Jon Snow is clearly <span class="spoiler"> not the prince that was promised, that'd be Daenerys. High Valyrian is a genderless language JFYI.</span>. I graduated from Furman University in 2014 with a Bachelor's degree in English. In 2015 I started taking some post-graduate classes at UNC Charlotte and nailed down some sys-admin and SOHO skills. I'm currently working on my MSIS with a concentration in mobile and web development at UAB. While these academic pursuits are important to me, I've found it equally important to  keep an open mind and learn something new everyday. My tastes and talents are eclectic, but the garden of the mind is a great place to grow.</p>
-                    <a href="#services" class="btn btn-default btn-xl page-scroll">That Makes Sense! Let's Read More.</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">What I Do</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-code wow bounceIn text-primary"></i>
-                        <h3>Code</h3>
-                        <p class="text-muted">Coding is a gateway. From digital art to digital commerce, I can help you with CSS, HTML, JavaScript, jQuery, PHP, Java, and SQL. </p>
+<body>
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <div class="intro-header1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="intro-message">
+                                <h1>Jared O'Neal</h1>
+                                <hr class="intro-divider">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-pencil-square-o wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                        <h3>Write</h3>
-                        <p class="text-muted">Speak thy speech, I pray you! Whether it's copywrite, press releases, or a bit of creative literature, I can ink it.</p>
+            </div>
+            <div class="arrow bounce">
+                <a class="fa fa-angle-double-down fa-5x page-scroll" href="#secondPage"></a>
+            </div>
+        </div>
+        <div id="about-me" class="section">
+            <div class="wrapper">
+                <div class="slide active">
+                    <h2>What I'm About</h2>
+                    <p>My middle name is <span class="highlighted-text">Armstrong.</span> I enjoy a good pair of <span class="highlighted-text">boots.</span>                        I travel for <span class="highlighted-text">inspiration.</span> But you're probably not here for
+                        that. I'm a web developer with a lot to offer. Go right or left for more about me as a person and
+                        developer or scroll below to see a glimpse of my work.</p>
+                </div>
+                <div class="slide">
+                    <h2>Things I'm Good At</h2>
+                    <div class="container">
+                        <div id="first-row" class="row">
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/javascript-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/bootstrap-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/css3-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/html5-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/sass-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/dota-2-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/php-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/java-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/wp-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/mysql-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/ps-logo.png" />
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <img id="things-image" src="img/ga-1.png" />
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-headphones wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                        <h3>Audio Production</h3>
-                        <p class="text-muted">PHP is to self-loathing as life is to music. Required to get the full effect. Let me help you with your next jingle.</p>
+            </div>
+            <div class="slide" id="zoo">
+                <div class="container">
+                    <h2>My Zoo</h2>
+                    <ul class="buttons-grouping">
+                        <button id="ziggy-button" class="pulse" onclick="togglePets('ziggy')">Ziggy</button>
+                        <button id="pepper-button" onclick="togglePets('pepper')">Pepper</button>
+                        <button id="oliver-button" onclick="togglePets('oliver')">Oliver</button>
+                        <button id="rosie-button" onclick="togglePets('rosie')">Rosie</button>
+                    </ul>
+                    <div id="ziggy" class="petz">
+                        <img src="img/ziggy.jpg">
+                        <p>Ziggy is the featured exhibit. I was actually afraid of cats at the time I rescued Ziggy.</p>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paw wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                        <h3>Zoo Admin</h3>
-                        <p class="text-muted">I have three cats and a dog and plenty of lint rollers.</p>
+                    <div id="pepper" class="petz">
+                        <img src="img/pepper.jpg">
+                        <p>While not actually a pig, you could be deceived by her laziness and bottomless stomach.</p>
+                    </div>
+                    <div id="oliver" class="petz">
+                        <img src="img/oliver.png">
+                        <p>Ollie J is a street rat turned lap cat. His chewed ear is all that's left of his street days.</p>
+                    </div>
+                    <div id="rosie" class="petz">
+                        <img src="img/rosie.jpg">
+                        <p>Don't let her name fool you, she's as wild and crazy as they come.</p>
+
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <div id="work" class="section">
+            <div class="wrapper">
 
+                <div class="slide">
+                    <h2>Selected Projects</h2>
+                    <p>In here you will find some choice projects that are <span class="highlighted-text">totally nectar, bro</span>.
+                        These projects are by no means inclusive of my skills, but just some examples that represent my interests.</p>
+                </div>
+                <div class="slide">
+                    <div class="container" id="NECB">
+                        <div class="row align-items-center justify-content-start">
+                            <div class="col-sm-12 col-md-6">
+                                <h2>NECB TalkTracks</h2>
+                                <p>This project was an exercise in the iceberg theory. Meant to be used as an onboarding aid,
+                                    this site is designed for admissions representatives to guide prospective students or
+                                    employees through potential benefits of enrolling at the online university New England
+                                    College of Business.</p>
+                            </div>
+                            <div class="col-sm-12 order-first order-sm-2 col-md-6"><img id="web-mock" src="img/desktop-tt.png" /><img id="web-mock-mobile" src="img/necb-mobile.png"
+                                /></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="container" id="NECB">
+                        <div class="row align-items-center">
 
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#myModal" data-toggle="modal" data-target="#myModal" class="portfolio-box">
-                        <img src="img/portfolio/pi.JPG" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category  text-center">
-                                    Networking
-                                </div>
-                                <div class="project-name">
-                                    Raspberry Pi
-                                </div>
+                            <div class="col-sm-12 col-md-6">
+                                <h2>Golf Academy Home Page</h2>
+                                <p>Golf Academy required a little more finesse on the backend than it needed TLC on the front
+                                    end. After some minor adjustments and some refactoring I managed to reduce page size
+                                    by 50% and drastically improve Google PageSpeed and GTMetrix scores.
+                                </p>
                             </div>
+                            <div class="col-sm-12 order-first order-sm-2 col-md-6"><img id="web-mock" src="img/golf-complete.png" /><img id="web-mock-mobile" src="img/golf-mobile-1.png"
+                                /></div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#myModal1" data-toggle="modal" data-target="#myModal1" class="portfolio-box">
-                        <img src="img/portfolio/independence1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category ">
-                                    Press Releases
-                                </div>
-                                <div class="project-name">
-                                    Charlotte Independence
-                                </div>
+                <div class="slide">
+                    <div class="container" id="NECB">
+                        <div class="row align-items-center">
+                            <div class="col-sm-12 col-md-7">
+                                <h2>Brightwood College AMP Landing Page</h2>
+                                <p>The process of converting a landing page into Google's experimental AMP paid off with some
+                                    huge dividends. The accelerated load time has led to some great results on conversions.
+                                    AMP definitely has drawbacks, but anything that receives preferable Google Search treatment
+                                    is going to be key in the future.</p>
                             </div>
+                            <div class="col-sm-12 order-first order-sm-2 col-md-5" id="amp-image"><img src="img/brightwood-amp-mobile.png" /></div>
                         </div>
-                    </a>
+                    </div>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#myModal2" data-toggle="modal" data-target="#myModal2" class="portfolio-box">
-                        <img src="img/portfolio/3.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category ">
-                                    Audio Production
-                                </div>
-                                <div class="project-name">
-                                    FL Studio
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#myModal3" data-toggle="modal" data-target="#myModal3" class="portfolio-box">
-                        <img src="Website/Linux.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category ">
-                                 Systems Administration 
-                                </div>
-                                <div class="project-name">
-                                    Operating Systems
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+                
+            </div>
+        </div>
+        <div id="projects" class="section">
+            <div class="wrapper">
+
+                <div class="slide">
+                    <h2>What's Inspiring Me</h2>
+                    <p>It's important to stay inspired and to keep the pendulum swinging. I try to draw my <span class="highlighted-text">inspiration</span>                        from my everyday interactions with the world as I <span class="highlighted-text">travel</span> around
+                        it, as well as staying up to date on <span class="highlighted-text">readings</span> from other professionals
+                        and academics.</p>
                 </div>
 
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#myModal4" data-toggle="modal" data-target="#myModal4" class="portfolio-box">
-                        <img src="Website/Cert3.png" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category ">
-                                    Certificates
-                                </div>
-                                <div class="project-name">
-                                    Google Analytics
+                <div class="slide" id="zoo">
+
+                    <div class="container">
+                        <h2>What's on my Bookshelf</h2>
+                        <div class="books row">
+                            <div class="book-one col-sm-6">
+                                <img src="img/dont-think.png" alt="Avatar">
+                                <h4>Don't Make Me Think</h4>
+                                <p><b>Web Design by Steve Krug</b></p>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/elements-ux.png" alt="Avatar">
+                                <h4><b>Elements of UX</b></h4>
+                                <p>UX by Jesse James Garrett</p>
+                            </div>
+                            <div class="book-one col-sm-6">
+                                <img src="img/html5.png" alt="Avatar">
+                                <h4><b>HTML5</b></h4>
+                                <p>Web Development by Lawson & Sharp</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <img src="img/above-fold.png" alt="Avatar">
+                                <h4><b>Above the Fold</b></h4>
+                                <p>Web Design by Brian Miller</p>
+                            </div>
+                        </div>
+                        <div class="row" id="mobile-bookshelf">
+                            <div class="container">
+                                <div>
+                                    <div class="book-row">
+                                        <div class="book-image">
+                                            <img src="img/dont-think.png">
+                                        </div>
+                                        <div class="book-text">
+                                            <h4>Don't Make Me Think</h4>
+                                            <p><b>Web Design by Steve Krug</b></p>
+                                        </div>
+                                    </div>
+                                    <div class="book-row">
+                                        <div class="book-image">
+                                            <img src="img/elements-ux.png">
+                                        </div>
+                                        <div class="book-text">
+                                            <h4><b>Elements of UX</b></h4>
+                                            <p>UX by Jesse James Garrett</p>
+                                        </div>
+                                    </div>
+                                    <div class="book-row">
+                                        <div class="book-image">
+                                            <img src="img/html5.png">
+                                        </div>
+                                        <div class="book-text">
+                                            <h4><b>HTML5</b></h4>
+                                            <p>Web Development by Lawson & Sharp</p>
+                                        </div>
+                                    </div>
+                                    <div class="book-row">
+                                        <div class="book-image">
+                                            <img src="img/above-fold.png">
+                                        </div>
+                                        <div class="book-text">
+                                            <h4><b>Above the Fold</b></h4>
+                                            <p>Web Design by Brian Miller</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="#myModal5" data-toggle="modal" data-target="#myModal5" class="portfolio-box">
-                        <img src="Website/zoo.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category ">
-                                    Zoo Admin
+                        <div id="marble" class="slide">
+                            <h2>Big Blue Marble</h2>
+                            <div class="container">
+                                <ul class="buttons-grouping">
+                                    <button id="good-button" class="pulse" onclick="toggleMarble('good')">The Good</button>
+                                    <button id="bad-button" onclick="toggleMarble('bad')">The Bad</button>
+                                    <button id="ugly-button" onclick="toggleMarble('ugly')">The Ugly</button>
+                                </ul>
+                                <div id="good" class="marbles">
+                                    <img src="img/underground.jpg">
+                                    <p>It's cheap. It's comprehensive. Not to mention how the incredible map
+                                         <span class="highlighted-text"><a href="http://www.bbc.com/culture/story/20150720-the-london-underground-map-the-design-that-shaped-a-city" target="_blank">completely changed the way we diagram</a></span>.</p>
                                 </div>
-                                <div class="project-name">
-                                     5-Star Pet Hotel
+                                <div id="bad" class="marbles">
+                                    <img src="img/walkie.jpg">
+                                    <p>This eyesore doesn't just ruin the view, it <span class="highlighted-text"><a href="https://www.theguardian.com/artanddesign/architecture-design-blog/2015/sep/02/walkie-talkie-london-wins-carbuncle-cup-worst-building-of-year"
+                                        target="_blank">literally melts cars into the sidewalk.</a></span></p>
+                                </div>
+                                <div id="ugly" class="marbles">
+                                    <img src="img/street.jpg">
+                                    <p>London sidewalks, where Londoners pass on the right, but the rest of the world passes on the left. <span class="highlighted-text"><a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=FFMYKR05E5B9WPGX5QFW"
+                                        target="_blank">Really makes you think. 
+                                        </a></span>
+                                    </p>
                                 </div>
                             </div>
+                            <!-- <div class="tab-content">
+                                            <div id="home" class="tab-pane fade in active">
+                                                <h3>The London Underground</h3>
+                                                <img src="img/underground.jpg">
+                                                <p>It's efficient. It's cheap. It's comprehensive. Not to mention how incredible
+                                                    the map design is. Simple and elegant, it <span class="highlighted-text"><a href="http://www.bbc.com/culture/story/20150720-the-london-underground-map-the-design-that-shaped-a-city" target="_blank">completely changed the way we diagram</a></span>.</p>
+                                            </div>
+                                            <div id="menu1" class="tab-pane fade">
+                                                <h3>The Walkie Talkie</h3>
+                                                <img src="img/walkie.jpg">
+                                                <p>With it's burgeoning, almost comedic, but somehow sinister appearance, this
+                                                    sucker looks more like something out of a Pixar movie than anything associated
+                                                    with one of the world's most cultured cities. This eyesore has
+                                                    <span class="highlighted-text"><a href="https://www.theguardian.com/artanddesign/architecture-design-blog/2015/sep/02/walkie-talkie-london-wins-carbuncle-cup-worst-building-of-year"
+                                                            target="_blank">melted a Jaguar bumper into the ground and creates a lovely wind tunnel that can literally knock you off your feet.</a>                                                        The lesson being, put things where they belong or else.</span>
+                                                </p>
+                                            </div>
+                                            <div id="menu2" class="tab-pane fade">
+                                                <h3>Street Life</h3>
+                                                <img src="img/street.jpg">
+                                                <p>You know how you'll be walking down a hallway and try to pass someone and
+                                                    then you both go the same direction? Then you both go the opposite direction
+                                                    at the same time? And it's super awkward? That's what happens when you
+                                                    have left hand right of way and basically everyone else has right hand.
+                                                    This really opened my eyes to the issues of
+                                                    <span class="highlighted-text"><a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=FFMYKR05E5B9WPGX5QFW"
+                                                                target="_blank">usability and preconceptions in design.</a></span>
+                                                </p>
+                                            </div>
+                                            <div id="menu3" class="tab-pane fade">
+                                                <h3>Street Life</h3>
+                                                <img src="img/street.jpg">
+                                                <p>You know how you'll be walking down a hallway and try to pass someone and
+                                                    then you both go the same direction? Then you both go the opposite direction
+                                                    at the same time? And it's super awkward? That's what happens when you
+                                                    have left hand right of way and basically everyone else has right hand.
+                                                    This really opened my eyes to the issues of
+                                                    <span class="highlighted-text"><a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=FFMYKR05E5B9WPGX5QFW"
+                                                                target="_blank">usability and preconceptions in design.</a></span>
+                                                </p>
+                                            </div>
+                                        </div> -->
                         </div>
-                    </a>
+                    </div>
+
+                    <!-- <script>
+                                    $(document).ready(function () {
+                                        $(".nav-tabs a").click(function () {
+                                            $(this).tab('show');
+                                        });
+                                        $('.nav-tabs a').on('shown.bs.tab', function (event) {
+                                            var x = $(event.target).text();         // active tab
+                                            var y = $(event.relatedTarget).text();  // previous tab
+                                            $(".act span").text(x);
+                                            $(".prev span").text(y);
+                                        });
+                                    });
+                                </script> -->
                 </div>
             </div>
         </div>
-    </section>
-
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Portfolio</h2>
-                <hr class="light">
-                <p>Feel free to click any of the images above for a little bit more about what I do. If you would rather see a paper copy you can click the button below and download a .docx, but I know you would rather click on the cat photos.</p>
-                <a href="../Website/JRes1.pdf" class="btn btn-default btn-xl wow tada" onClick="ga('send', 'event', { eventCategory: 'download', eventAction: 'click', eventLabel: 'resume', eventValue: 1});">Click here to download resume.</a>
-            </div>
-        </div>
-    </aside>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>If you have any other questions, want to see some of my code, or just want to hear a really solid one-liner joke, hit me up.</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
-                    <p>205-586-9383</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:oneal.jared@gmail.com">oneal.jared@gmail.com</a></p>
-                </div>
-            </div>
-        </div>
-
-        <!-- MODALS BEGIN HERE -->
-        <div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Networking</h4>
-      </div>
-      <div class="modal-body">
-      <h2 style="text-align:center">Web Hosting</h2>
-                            <hr>
-                            <img src="img/portfolio/pi1.JPG" class="img-responsive img-centered" alt="">
-                            <p>The website you are currently visiting is actually being hosted on my Raspberry Pi*. You are basically right here on the end of my desk (please ignore the dust). Not only can I handle your web design, I can also handle your web hosting and computer networking. I am familiar with both Apache and Microsoft IIS. Oh, and I can Git. *This page was hosted on a Pi. I switched to GitHub Pages after I moved to ATT Uverse aka the slowest internet in America.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
     </div>
-	</div>
-	</div>
-
-    <!-- MODALS BEGIN HERE -->
-        <div id="myModal1" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Press Releases</h4>
-      </div>
-      <div class="modal-body">
-      <h2 style="text-align:center">Charlotte Independence</h2>
-                            <hr>
-                            <img src="img/portfolio/independence2.jpg" class="img-responsive img-centered" alt="">
-                            <p>I had the privilege of working with the Charlotte Independence for their inaugural season. I ran the play-by-play twitter feed and compiled match reports for the press at the end of every game. If you'd like to see some examples of my work please petition the Charlotte Independence to restore their news archive or send me an email if you're really desperate.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-
-  </div>
-</div>
-
-  </div>
-</div>
-
-    <!-- MODALS BEGIN HERE -->
-        <div id="myModal2" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Audio Production</h4>
-      </div>
-      <div class="modal-body">
-      <h2 style="text-align:center">DAWs and VSTs</h2>
-                            <hr>
-                            <img src="img/portfolio/4.png" class="img-responsive img-centered" alt="">
-                            <p>For me, audio is about creating the right atmosphere. The right audio elements, whether it's sound effects, music, quotes, or a Yeti yodeling the star spangled banner through a styrofoam cup, can drastically improve any user's experience. I have experience with a variety of DAWs and VSTs including Massive, Sylenth, Fl Studio, Audacity, and Logic. I have included a little spooky clip from a soundtrack I worked on below. You might want to turn the lights on.</p>
-                            <audio controls>
-  							<source src="Website/Spooky-Sound-3.mp3" type="audio/mpeg">
-							Your browser does not support the audio element.
-							</audio>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-	</div>
-	</div>
-
-	    <!-- MODALS BEGIN HERE -->
-        <div id="myModal3" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Work Environments</h4>
-      </div>
-      <div class="modal-body">
-      <h2 style="text-align:center">Operating Systems</h2>
-                            <hr>
-                            <img src="Website/BigLinux.png" class="img-responsive img-centered" style="vertical-align:middle" alt="">
-                            <p>I am familiar with OS X, Windows, Ubuntu, Debian, CentOS, and the slightly outdated<a href="https://upload.wikimedia.org/wikipedia/commons/e/ea/Boulier1.JPG" target="_blank"> abacus.</a> Whatever platform you are running your business on, I can keep supply what your system needs.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-
-  </div>
-</div>
-
-  </div>
-</div>
-
-    <!-- MODALS BEGIN HERE -->
-        <div id="myModal4" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Certificates</h4>
-      </div>
-      <div class="modal-body">
-      <h2 style="text-align:center">Google Analytics</h2>
-                            <hr>
-                            <img style="vertical-align:middle" src="Website/Cert2.png" class="img-responsive img-centered" alt="">
-                            <p>As of 2016 I am Google Analytics certified. I can help you optimize your site for search engines, as well as analyze and report on web traffic.</p>
-                                  </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-	</div>
-	</div>
-
-	    <!-- MODALS BEGIN HERE -->
-        <div id="myModal5" class="modal fade" role="dialog">
-  <div class="modal-dialog modal-lg">
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title"></h4>
-      </div>
-      <div class="modal-body">
-      <h2 style="text-align:center">Zoo Admin</h2>
-                            <hr>
-                            <img style="vertical-align:middle" src="Website/zoo.jpg" class="img-responsive img-centered" alt="">
-                            <p>"I'm here to pet cats and chew bubble gum...and I'm all out of bubble gum." - Roddy Piper/Jared O'Neal</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-	</div>
-	</div>
-    </section>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/wow.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
-
 </body>
 
 </html>
