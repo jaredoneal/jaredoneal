@@ -141,7 +141,7 @@
                 <div class="slide">
                     <div class="container" id="NECB">
                         <div class="row align-items-center justify-content-start">
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 order-first order-sm-2 col-md-6">
                                 <h2>NECB TalkTracks</h2>
                                 <p>This project was an exercise in the iceberg theory. Meant to be used as an onboarding aid,
                                     this site is designed for admissions representatives to guide prospective students or
@@ -157,7 +157,7 @@
                     <div class="container" id="NECB">
                         <div class="row align-items-center">
 
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 order-first order-sm-2 col-md-6">
                                 <h2>Golf Academy Home Page</h2>
                                 <p>Golf Academy required a little more finesse on the backend than it needed TLC on the front
                                     end. After some minor adjustments and some refactoring I managed to reduce page size
@@ -266,16 +266,30 @@
                         <div id="marble" class="slide">
                             <h2>Big Blue Marble</h2>
                             <div class="container">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <ul class="nav nav-tabs">
-                                            <li class="list-titles active"><a href="#home">The Good</a></li>
-                                            <li class="list-titles"><a href="#menu1">The Bad</a></li>
-                                            <li class="list-titles"><a href="#menu2">The Ugly</a></li>
-                                            <li class="list-titles"><a href="#menu3">The Ugly</a></li>
-                                        </ul>
-
-                                        <div class="tab-content">
+                                <ul class="buttons-grouping">
+                                    <button id="good-button" class="pulse" onclick="toggleMarble('good')">The Good</button>
+                                    <button id="bad-button" onclick="toggleMarble('bad')">The Bad</button>
+                                    <button id="ugly-button" onclick="toggleMarble('ugly')">The Ugly</button>
+                                </ul>
+                                <div id="good" class="marbles">
+                                    <img src="img/underground.jpg">
+                                    <p>It's cheap. It's comprehensive. Not to mention how the incredible map
+                                         <span class="highlighted-text"><a href="http://www.bbc.com/culture/story/20150720-the-london-underground-map-the-design-that-shaped-a-city" target="_blank">completely changed the way we diagram</a></span>.</p>
+                                </div>
+                                <div id="bad" class="marbles">
+                                    <img src="img/walkie.jpg">
+                                    <p>This eyesore doesn't just ruin the view, it <span class="highlighted-text"><a href="https://www.theguardian.com/artanddesign/architecture-design-blog/2015/sep/02/walkie-talkie-london-wins-carbuncle-cup-worst-building-of-year"
+                                        target="_blank">literally melts cars into the sidewalk.</a></span></p>
+                                </div>
+                                <div id="ugly" class="marbles">
+                                    <img src="img/street.jpg">
+                                    <p>London sidewalks, where Londoners pass on the right, but the rest of the world passes on the left. <span class="highlighted-text"><a href="https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654/ref=pd_lpo_sbs_14_t_0?_encoding=UTF8&psc=1&refRID=FFMYKR05E5B9WPGX5QFW"
+                                        target="_blank">Really makes you think. 
+                                        </a></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- <div class="tab-content">
                                             <div id="home" class="tab-pane fade in active">
                                                 <h3>The London Underground</h3>
                                                 <img src="img/underground.jpg">
@@ -316,11 +330,11 @@
                                                                 target="_blank">usability and preconceptions in design.</a></span>
                                                 </p>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                        </div> -->
+                        </div>
+                    </div>
 
-                                <script>
+                    <!-- <script>
                                     $(document).ready(function () {
                                         $(".nav-tabs a").click(function () {
                                             $(this).tab('show');
@@ -332,11 +346,11 @@
                                             $(".prev span").text(y);
                                         });
                                     });
-                                </script>
-                            </div>
-                        </div>
-                    </div>
+                                </script> -->
                 </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

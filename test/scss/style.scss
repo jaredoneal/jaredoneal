@@ -796,8 +796,10 @@ section {
 
 .petz {
     display: none;
+}
 
-
+.marbles {
+    display:none;
 }
 
 #zoo {
@@ -825,7 +827,47 @@ section {
     }
 }
 
+
+#marble {
+    .marbles {
+        
+        text-align:center;
+
+    img {
+        height:400px;
+         @media screen and (max-width:625px){
+            height:310px;
+       }
+       @media screen and (max-width:515px){
+            height:250px;
+        }
+        @media screen and (max-width:450px){
+            height:225px;
+        }
+    }
+
+    p {
+        width:70%;
+        text-align:left;
+                @media screen and (max-width:625px){
+            font-size:1.8rem;
+        }
+          @media screen and (max-width:515px){
+            font-size:1.8rem;
+        }
+          @media screen and (max-width:450px){
+            font-size:1.6rem;
+        }
+    }
+    }
+}
+
+
 #ziggy { display:block;
+}
+
+#good {
+    display:block;
 }
 
 .buttons-grouping {

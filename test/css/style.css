@@ -6420,6 +6420,9 @@ section {
 .petz {
   display: none; }
 
+.marbles {
+  display: none; }
+
 #zoo .petz {
   text-align: center; }
   #zoo .petz img {
@@ -6437,7 +6440,36 @@ section {
     width: 70%;
     text-align: center; }
 
+#marble .marbles {
+  text-align: center; }
+  #marble .marbles img {
+    height: 400px; }
+    @media screen and (max-width: 625px) {
+      #marble .marbles img {
+        height: 310px; } }
+    @media screen and (max-width: 515px) {
+      #marble .marbles img {
+        height: 250px; } }
+    @media screen and (max-width: 450px) {
+      #marble .marbles img {
+        height: 225px; } }
+  #marble .marbles p {
+    width: 70%;
+    text-align: left; }
+    @media screen and (max-width: 625px) {
+      #marble .marbles p {
+        font-size: 1.8rem; } }
+    @media screen and (max-width: 515px) {
+      #marble .marbles p {
+        font-size: 1.8rem; } }
+    @media screen and (max-width: 450px) {
+      #marble .marbles p {
+        font-size: 1.6rem; } }
+
 #ziggy {
+  display: block; }
+
+#good {
   display: block; }
 
 .buttons-grouping {
