@@ -270,6 +270,20 @@ section {
 
 //ABOUT ME SECTION RULES
 #about-me {
+
+	#first-row img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    @media screen and (max-width: 820px) {
+        width:75px;
+        height: 75px;
+    }
+    @media screen and (max-width:450px) {
+        width: 50px;
+        height: 50px;
+    }
+}
     text-align: center;
     vertical-align: middle;
     background-color: #EFF1F3 !important;
@@ -435,22 +449,7 @@ section {
  
 }
 
-#things-image {
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-    @media screen and (max-width: 820px) {
-        width:75px;
-        height: 75px;
-    }
-    @media screen and (max-width:450px) {
-        width: 50px;
-        height: 50px;
-    }
-}
-
-
-#NECB {
+.NECB {
     text-align: center;
     p {
         font-size: 2.5rem;
@@ -526,7 +525,7 @@ section {
     }
 }
 
-#web-mock {
+.web-mock {
     @media screen and (max-width: 1400px) {
         height: 300px;
     }
@@ -539,8 +538,8 @@ section {
 
 }
 
-#amp-image img
-{
+.amp-image img
+{ 
     @media screen and (max-width: 1400px) {}
         @media screen and (max-width:768px){
         height:420px;
@@ -700,7 +699,7 @@ section {
     }
 }
 
-#web-mock-mobile {
+.web-mock-mobile {
     margin:auto;
     @media screen and (min-width:1024px){
         display: none;
@@ -719,6 +718,30 @@ section {
     }
 }
 
+.cv-image {
+    width:100%;
+    @media (max-width: 768px){
+        width:75%;
+        height:75% !important;
+    }
+}
+
+.react-img{
+    width:100%;
+        @media (max-width: 768px){
+        width:75%;
+        height:75% !important;
+    }
+
+
+}
+
+.code-snippet {
+    @media (max-width:768px){
+        display:none;
+    }
+
+}
 
 #mobile-bookshelf {
     margin:0px;
